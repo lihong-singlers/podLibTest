@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZHLibTest_Example' do
+  pod 'ZHLibTest', :path => '../'
+
+  target 'ZHLibTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
