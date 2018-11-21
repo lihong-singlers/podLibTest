@@ -1,0 +1,6 @@
+framework module Pods_ZHLibTest_Tests {
+  umbrella header "Pods-ZHLibTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

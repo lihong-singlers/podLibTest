@@ -1,0 +1,22 @@
+{
+  "name": "ZHLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of ZHLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/398090509@qq.com/ZHLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "398090509@qq.com": "ztzh_lihong@ztzh.com"
+  },
+  "source": {
+    "git": "https://github.com/398090509@qq.com/ZHLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZHLibTest/Classes/**/*"
+}

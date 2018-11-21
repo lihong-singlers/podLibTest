@@ -1,0 +1,16 @@
+PODS:
+  - ZHLibTest (0.1.0)
+
+DEPENDENCIES:
+  - ZHLibTest (from `../`)
+
+EXTERNAL SOURCES:
+  ZHLibTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHLibTest: 1e66db482825a4af317b7c5d89ccc11b9c28c128
+
+PODFILE CHECKSUM: 4d2c1c963f2e746687c8876e7b0777f4e12c31d7
+
+COCOAPODS: 1.5.3
