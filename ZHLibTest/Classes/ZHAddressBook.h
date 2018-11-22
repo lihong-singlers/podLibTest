@@ -6,10 +6,14 @@
 //  Copyright © 2017年 CGNB. All rights reserved.
 //
 
-#import "ZHBasicPlugin.h"
+#import <UIKit/UIKit.h>
 
 @interface ZHAddressBook : NSObject
 
+@property (nonatomic,weak)UIViewController *viewController;
+
 -(void)AddressBook:(void(^)(NSString *callback))callbackBlock;
+
+
 
 @end

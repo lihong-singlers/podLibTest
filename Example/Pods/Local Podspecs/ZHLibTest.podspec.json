@@ -1,9 +1,9 @@
 {
   "name": "ZHLibTest",
   "version": "0.1.0",
-  "summary": "A short description of ZHLibTest.",
+  "summary": "这是我第一个私有库测试项目ZHLibTest",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/398090509@qq.com/ZHLibTest",
+  "homepage": "https://github.com/lihong-singlers",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "398090509@qq.com": "ztzh_lihong@ztzh.com"
   },
   "source": {
-    "git": "https://github.com/398090509@qq.com/ZHLibTest.git",
+    "git": "https://github.com/lihong-singlers/podLibTest.git",
     "tag": "0.1.0"
   },
   "platforms": {

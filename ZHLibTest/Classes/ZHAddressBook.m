@@ -57,7 +57,7 @@ typedef void(^callBackBlock)(NSString * obj);
 }
 
 #pragma argumentsCNContactPickerDelegate
-- (void)contactPicker:(CNContactPickerViewController *)picker didSelectContactProperty:(CNContactProperty *)contactProperty{
+- (void)contactPicker:(CNContactPickerViewController *)picker didSelectContactProperty:(CNContactProperty *)contactProperty API_AVAILABLE(ios(9.0)) API_AVAILABLE(ios(9.0)){
     
     CNPhoneNumber *phoneNumber = contactProperty.value;
     NSString *phoneStr;

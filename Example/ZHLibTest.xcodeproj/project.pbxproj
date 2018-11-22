@@ -24,6 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C2B5C93D21A635A9009B43BC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B5C93C21A635A9009B43BC /* AddressBookUI.framework */; };
+		C2B5C93F21A635B0009B43BC /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B5C93E21A635B0009B43BC /* Contacts.framework */; };
+		C2B5C94121A635B4009B43BC /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B5C94021A635B4009B43BC /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4962BF9554A88EB35D9F4D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4962BF9554A88EB35D9F4D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C93B64CCB3B7262368F2182 /* Pods-ZHLibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLibTest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLibTest_Example/Pods-ZHLibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		508DB20286D6906C554E4E8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		508DB20286D6906C554E4E8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZHLibTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHLibTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +67,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A772BBC2F072D4A13024EBBD /* Pods_ZHLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24F5F62D917D7269247FAC3 /* Pods_ZHLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B5C93C21A635A9009B43BC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		C2B5C93E21A635B0009B43BC /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		C2B5C94021A635B4009B43BC /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		E5F20E3ACB8837BF7DC52F56 /* Pods-ZHLibTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLibTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLibTest_Tests/Pods-ZHLibTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED3A153F099A5D0F165B0F5A /* Pods-ZHLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLibTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLibTest_Example/Pods-ZHLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F79075C3F2C9A43F6B81BFEA /* ZHLibTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZHLibTest.podspec; path = ../ZHLibTest.podspec; sourceTree = "<group>"; };
+		F79075C3F2C9A43F6B81BFEA /* ZHLibTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHLibTest.podspec; path = ../ZHLibTest.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B5C94121A635B4009B43BC /* ContactsUI.framework in Frameworks */,
+				C2B5C93F21A635B0009B43BC /* Contacts.framework in Frameworks */,
+				C2B5C93D21A635A9009B43BC /* AddressBookUI.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +128,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2B5C94021A635B4009B43BC /* ContactsUI.framework */,
+				C2B5C93E21A635B0009B43BC /* Contacts.framework */,
+				C2B5C93C21A635A9009B43BC /* AddressBookUI.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -247,6 +259,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "398090509@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 86QW6S4TEU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -440,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -485,12 +500,21 @@
 			baseConfigurationReference = ED3A153F099A5D0F165B0F5A /* Pods-ZHLibTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86QW6S4TEU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZHLibTest/ZHLibTest-Prefix.pch";
 				INFOPLIST_FILE = "ZHLibTest/ZHLibTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZHLibTest\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +524,21 @@
 			baseConfigurationReference = 4C93B64CCB3B7262368F2182 /* Pods-ZHLibTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86QW6S4TEU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZHLibTest/ZHLibTest-Prefix.pch";
 				INFOPLIST_FILE = "ZHLibTest/ZHLibTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ZHLibTest\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

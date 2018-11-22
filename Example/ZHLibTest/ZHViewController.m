@@ -7,6 +7,7 @@
 //
 
 #import "ZHViewController.h"
+#import "ZHAddressBook.h"
 
 @interface ZHViewController ()
 
@@ -18,6 +19,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
+    [super viewDidAppear:animated];
+
+}
+
+
+- (IBAction)buttonClick:(id)sender {
+    ZHAddressBook *book = [[ZHAddressBook alloc]init];
+    book.viewController = self;
+    __weak typeof(book)weak_book = book;
+    [book AddressBook:^(NSString *callback) {
+        weak_book.viewController = nil;
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning
