@@ -1,16 +1,16 @@
 PODS:
-  - ZHLibTest (0.1.0)
+  - ZHLibTest (0.3.0)
 
 DEPENDENCIES:
-  - ZHLibTest (from `../`)
+  - ZHLibTest (from `../ZHLibTest.podspec`)
 
 EXTERNAL SOURCES:
   ZHLibTest:
-    :path: "../"
+    :podspec: "../ZHLibTest.podspec"
 
 SPEC CHECKSUMS:
-  ZHLibTest: 26fc0d425b90b0dc261c46fb7189d1980909e4bd
+  ZHLibTest: e2e64d7064b6f22cbc4cdc02cb2463babf80b232
 
-PODFILE CHECKSUM: 4d2c1c963f2e746687c8876e7b0777f4e12c31d7
+PODFILE CHECKSUM: 4f87654b06f7643c0f4246e27fd30e8313d53dc0
 
 COCOAPODS: 1.5.3

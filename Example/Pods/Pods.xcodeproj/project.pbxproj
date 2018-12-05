@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		09413BEA33DEED5CB8E37E3445FB2EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0ACFC528F2ADAA89803C6CC7C537D129 /* ZHLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48619630070F93C4D9B0D06AFE06F03B /* ZHLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ACFC528F2ADAA89803C6CC7C537D129 /* ZHLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3AD1488BB0FA613EC2E66B21F14E1C9 /* ZHLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A42ED3C89A60F3DEB0B5D9CB4E11763 /* Pods-ZHLibTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED7E72B704195EBBCE71F88DA6C37E4 /* Pods-ZHLibTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		406168357D8CF86B6F4B8DCFF8D6CDF8 /* Pods-ZHLibTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8667C05FCBA7E489DFAAA0DAF9794F6 /* Pods-ZHLibTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5907B3EC3BBE4E2763E2308690C6FF2B /* Pods-ZHLibTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0997961D27725694DDE179E75C8034 /* Pods-ZHLibTest_Example-dummy.m */; };
-		7849D5E78D52E38D4DAA8780D319D4DB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CF864AFDDCB32C8A344B89B68B22DDD6 /* ReplaceMe.m */; };
+		7849D5E78D52E38D4DAA8780D319D4DB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C2514EE8E4AA028094963485AC6F63A3 /* ReplaceMe.m */; };
 		82314DAB05EBCDF51A21596F7DD85C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		982D21E1418C7859C47EDE29A49368EB /* Pods-ZHLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75612478DA408CB05248AC9DDF20A4AD /* Pods-ZHLibTest_Tests-dummy.m */; };
-		9A78FF6CAC679A59C5F5BD9C957B30A1 /* ZHAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC78F512485EB58481B64230770CDFF /* ZHAddressBook.m */; };
-		A823471356B05610A7A6E2DCB60779E5 /* ZHLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381EFC760C953C3CCC87A904A594DBF1 /* ZHLibTest-dummy.m */; };
-		C2C9A2EFA5864E90983AF93C216CDC1D /* ZHAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 851D980CE237831D97A0E5D17E1CF8CF /* ZHAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A78FF6CAC679A59C5F5BD9C957B30A1 /* ZHAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A96AE1DCD68453C44B071B689BDBD78 /* ZHAddressBook.m */; };
+		A823471356B05610A7A6E2DCB60779E5 /* ZHLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D3945D6E36A6A9CCA27CC9A01172C2 /* ZHLibTest-dummy.m */; };
+		C2C9A2EFA5864E90983AF93C216CDC1D /* ZHAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BFC27C683150D8C3FDDD9BB376D054 /* ZHAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9C8CCBAE754E38FC667DB53FF334636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,39 +39,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A84D6581F4FE93D31F4EF8680A03799 /* Pods_ZHLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CB9CD5E88AA66D3668E78D5CC5641CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A84D6581F4FE93D31F4EF8680A03799 /* Pods_ZHLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHLibTest_Tests.framework; path = "Pods-ZHLibTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBAB6882F52E47FDA60E5C7DC8C5515 /* Pods-ZHLibTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHLibTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0E22E951B086C654940CA44791A7A500 /* Pods-ZHLibTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHLibTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		0F8E4A74326E126C07AF5C5010B470D0 /* Pods-ZHLibTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHLibTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FAAADA17F86A76C7CA3F184DDC1F07C /* ZHLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHLibTest.xcconfig; sourceTree = "<group>"; };
-		2F22784EADAD9C94511EB7DF90619E5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3391160906EE2AE4569EFB973B191435 /* Pods-ZHLibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHLibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		35C907B696EB13B51B1FE0FC25B1F3D0 /* ZHLibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZHLibTest.podspec; sourceTree = "<group>"; };
-		381EFC760C953C3CCC87A904A594DBF1 /* ZHLibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHLibTest-dummy.m"; sourceTree = "<group>"; };
 		3C6230C0C91F282A664D52A72C4537B3 /* Pods-ZHLibTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHLibTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4381246CFCDAB3C7BC466701CE100BEF /* Pods_ZHLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48619630070F93C4D9B0D06AFE06F03B /* ZHLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHLibTest-umbrella.h"; sourceTree = "<group>"; };
+		4381246CFCDAB3C7BC466701CE100BEF /* Pods_ZHLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHLibTest_Example.framework; path = "Pods-ZHLibTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEFB9E5EC0594CF785BA827BAF2BEE3 /* Pods-ZHLibTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHLibTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5187A9D29A102D3CD80555E998B6F1EE /* Pods-ZHLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHLibTest_Tests.modulemap"; sourceTree = "<group>"; };
 		56B96AF581F6D686F239D83D003E8CFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DC78F512485EB58481B64230770CDFF /* ZHAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHAddressBook.m; path = ZHLibTest/Classes/ZHAddressBook.m; sourceTree = "<group>"; };
-		6323976C9D84E906F4E6D7F8AB285944 /* ZHLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHLibTest.modulemap; sourceTree = "<group>"; };
+		5C5D63C38EEB3BBDDD57FD5186B34464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A0997961D27725694DDE179E75C8034 /* Pods-ZHLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHLibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		6ED7E72B704195EBBCE71F88DA6C37E4 /* Pods-ZHLibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHLibTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		75612478DA408CB05248AC9DDF20A4AD /* Pods-ZHLibTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHLibTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		84EF73ACF76FF1AC390B0C8E9004A650 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		851D980CE237831D97A0E5D17E1CF8CF /* ZHAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHAddressBook.h; path = ZHLibTest/Classes/ZHAddressBook.h; sourceTree = "<group>"; };
+		85F60C0086289DE90D48638BF44FA9EE /* ZHLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHLibTest-prefix.pch"; sourceTree = "<group>"; };
+		86D3945D6E36A6A9CCA27CC9A01172C2 /* ZHLibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHLibTest-dummy.m"; sourceTree = "<group>"; };
 		8B82FDED1DC89335AC862165E1744A34 /* Pods-ZHLibTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHLibTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		926B71FB5F2D3DA9C4F966146FA9388C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BFC27C683150D8C3FDDD9BB376D054 /* ZHAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHAddressBook.h; path = ZHLibTest/Classes/ZHAddressBook.h; sourceTree = "<group>"; };
+		9A96AE1DCD68453C44B071B689BDBD78 /* ZHAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHAddressBook.m; path = ZHLibTest/Classes/ZHAddressBook.m; sourceTree = "<group>"; };
+		9F4012BD97F39C4D5FD1C00E0C5349A4 /* ZHLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHLibTest.xcconfig; sourceTree = "<group>"; };
 		ABBB278CE320A7FC2FE5283CFF4D08B0 /* Pods-ZHLibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHLibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC4BA01AA105369B41D5DE006CA3E66B /* ZHLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4BA01AA105369B41D5DE006CA3E66B /* ZHLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHLibTest.framework; path = ZHLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0E86E875B53230C8E744AC74754814 /* Pods-ZHLibTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHLibTest_Example-resources.sh"; sourceTree = "<group>"; };
-		B51A4F2AD807EA5F6F2ABE30AAFF7189 /* ZHLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHLibTest-prefix.pch"; sourceTree = "<group>"; };
+		B3AD1488BB0FA613EC2E66B21F14E1C9 /* ZHLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHLibTest-umbrella.h"; sourceTree = "<group>"; };
+		C2514EE8E4AA028094963485AC6F63A3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZHLibTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C43F5D7122ECB382965FA8F8ACA963BB /* ZHLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHLibTest.modulemap; sourceTree = "<group>"; };
 		C5CC88EE7B25B15B6C88596AD6A15FD4 /* Pods-ZHLibTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHLibTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CF864AFDDCB32C8A344B89B68B22DDD6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZHLibTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D66742DF2459EF345AE3A077A252B069 /* Pods-ZHLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE49E7B1A74D0EB4C9329D5D7480D750 /* Pods-ZHLibTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHLibTest_Example.modulemap"; sourceTree = "<group>"; };
 		EA5DD904E16A39B410EA38D9B4AD1A45 /* Pods-ZHLibTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHLibTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -124,6 +121,32 @@
 			path = "Target Support Files/Pods-ZHLibTest_Tests";
 			sourceTree = "<group>";
 		};
+		0D3337FFEEDE30E700B9D81B15805332 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D63C38EEB3BBDDD57FD5186B34464 /* Info.plist */,
+				C43F5D7122ECB382965FA8F8ACA963BB /* ZHLibTest.modulemap */,
+				9F4012BD97F39C4D5FD1C00E0C5349A4 /* ZHLibTest.xcconfig */,
+				86D3945D6E36A6A9CCA27CC9A01172C2 /* ZHLibTest-dummy.m */,
+				85F60C0086289DE90D48638BF44FA9EE /* ZHLibTest-prefix.pch */,
+				B3AD1488BB0FA613EC2E66B21F14E1C9 /* ZHLibTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZHLibTest";
+			sourceTree = "<group>";
+		};
+		1346F59211D1669DD61E9AFCF1AFBA39 /* ZHLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				C2514EE8E4AA028094963485AC6F63A3 /* ReplaceMe.m */,
+				99BFC27C683150D8C3FDDD9BB376D054 /* ZHAddressBook.h */,
+				9A96AE1DCD68453C44B071B689BDBD78 /* ZHAddressBook.m */,
+				0D3337FFEEDE30E700B9D81B15805332 /* Support Files */,
+			);
+			name = ZHLibTest;
+			path = ZHLibTest;
+			sourceTree = "<group>";
+		};
 		206D04EB9239822CEA336FC6932354AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,43 +169,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				85090C07B882E16AB28D3902C2A61911 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FA724E6F73F4C47DAB4D4D30AAB25668 /* Pods */,
 				206D04EB9239822CEA336FC6932354AA /* Products */,
 				AC990E32B39D1B5508D883E611493454 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		85090C07B882E16AB28D3902C2A61911 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E32E0982EA28F33212A361927C557C79 /* ZHLibTest */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		93059573C50DF82FA4DC904B34C5EA6A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				84EF73ACF76FF1AC390B0C8E9004A650 /* LICENSE */,
-				2F22784EADAD9C94511EB7DF90619E5F /* README.md */,
-				35C907B696EB13B51B1FE0FC25B1F3D0 /* ZHLibTest.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9D7B23CE04CD9753E179A95BBCAAE9A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0CB9CD5E88AA66D3668E78D5CC5641CF /* Info.plist */,
-				6323976C9D84E906F4E6D7F8AB285944 /* ZHLibTest.modulemap */,
-				1FAAADA17F86A76C7CA3F184DDC1F07C /* ZHLibTest.xcconfig */,
-				381EFC760C953C3CCC87A904A594DBF1 /* ZHLibTest-dummy.m */,
-				B51A4F2AD807EA5F6F2ABE30AAFF7189 /* ZHLibTest-prefix.pch */,
-				48619630070F93C4D9B0D06AFE06F03B /* ZHLibTest-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZHLibTest";
 			sourceTree = "<group>";
 		};
 		AC990E32B39D1B5508D883E611493454 /* Targets Support Files */ = {
@@ -220,17 +211,12 @@
 			path = "Target Support Files/Pods-ZHLibTest_Example";
 			sourceTree = "<group>";
 		};
-		E32E0982EA28F33212A361927C557C79 /* ZHLibTest */ = {
+		FA724E6F73F4C47DAB4D4D30AAB25668 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF864AFDDCB32C8A344B89B68B22DDD6 /* ReplaceMe.m */,
-				851D980CE237831D97A0E5D17E1CF8CF /* ZHAddressBook.h */,
-				5DC78F512485EB58481B64230770CDFF /* ZHAddressBook.m */,
-				93059573C50DF82FA4DC904B34C5EA6A /* Pod */,
-				9D7B23CE04CD9753E179A95BBCAAE9A1 /* Support Files */,
+				1346F59211D1669DD61E9AFCF1AFBA39 /* ZHLibTest */,
 			);
-			name = ZHLibTest;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,37 +439,6 @@
 			};
 			name = Debug;
 		};
-		2137D825D5473AAB3C94137BFF0711D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FAAADA17F86A76C7CA3F184DDC1F07C /* ZHLibTest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHLibTest/ZHLibTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZHLibTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZHLibTest/ZHLibTest.modulemap";
-				PRODUCT_MODULE_NAME = ZHLibTest;
-				PRODUCT_NAME = ZHLibTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2F25E46A91B69FAC424BE0463C9A00C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B82FDED1DC89335AC862165E1744A34 /* Pods-ZHLibTest_Tests.debug.xcconfig */;
@@ -517,9 +472,9 @@
 			};
 			name = Debug;
 		};
-		5F2F77C64BD6E4711C0D94DC8D22CAB3 /* Debug */ = {
+		521947296EFDDC23B652B502C12A58AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FAAADA17F86A76C7CA3F184DDC1F07C /* ZHLibTest.xcconfig */;
+			baseConfigurationReference = 9F4012BD97F39C4D5FD1C00E0C5349A4 /* ZHLibTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -533,7 +488,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ZHLibTest/ZHLibTest-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ZHLibTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZHLibTest/ZHLibTest.modulemap";
 				PRODUCT_MODULE_NAME = ZHLibTest;
@@ -648,6 +603,37 @@
 			};
 			name = Debug;
 		};
+		DD3B65A2E6A4A2230259BDE070B0A434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4012BD97F39C4D5FD1C00E0C5349A4 /* ZHLibTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHLibTest/ZHLibTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHLibTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZHLibTest/ZHLibTest.modulemap";
+				PRODUCT_MODULE_NAME = ZHLibTest;
+				PRODUCT_NAME = ZHLibTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -730,8 +716,8 @@
 		7A9AE422E111E153A1E5473946A28DAF /* Build configuration list for PBXNativeTarget "ZHLibTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2F77C64BD6E4711C0D94DC8D22CAB3 /* Debug */,
-				2137D825D5473AAB3C94137BFF0711D9 /* Release */,
+				521947296EFDDC23B652B502C12A58AD /* Debug */,
+				DD3B65A2E6A4A2230259BDE070B0A434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
